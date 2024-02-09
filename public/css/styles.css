@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center align text in body */
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#transactions {
+    max-width: 600px; /* Set a maximum width for the transaction list */
+    margin: 20px auto; /* Center the transaction list horizontally */
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+.transaction.income {
+    background-color: #e6f7ff;
+}
+
+.transaction.expense {
+    background-color: #ffe6e6;
+}
+
+#netAmount {
+    margin-top: 20px;
+    font-weight: bold;
+}
